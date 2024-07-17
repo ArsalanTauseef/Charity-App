@@ -149,14 +149,16 @@ header, .upperHeader {
 
 }
 
-#navlinks ul li {
+
+#navlinks ul li, .awa {
     list-style: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     transition: 0.2s ease;
+    color: #040F39;
 }
 
-#navlinks ul li:hover {
+#navlinks ul li:hover, .awa:hover {
     color: #0CC97D;
 }
 

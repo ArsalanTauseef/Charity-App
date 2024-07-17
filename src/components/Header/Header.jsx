@@ -7,6 +7,7 @@ import {
   FaGooglePlusG,
 } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import {NavLink} from 'react-router-dom'
 
 export const Header = () => {
   return (
@@ -67,8 +68,8 @@ export const Header = () => {
             </div>
             <div id="navlinks">
               <ul>
-                <li>Home</li>
-                <li>About</li>
+                <li><NavLink className={"awa"} to='/' style={{textDecoration:'none'}}>Home</NavLink></li>
+                <li><NavLink className={"awa"} to='about' style={{textDecoration:'none'}}>About</NavLink></li>
                 <li>Latest Causes</li>
                 <li>Social Events</li>
                 <li>Blog</li>
