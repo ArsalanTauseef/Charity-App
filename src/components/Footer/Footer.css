@@ -20,6 +20,7 @@ footer ul li {
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
+    transition: padding-left 0.9s ease-out; /* You can adjust the duration and timing function */
 }
 footer div {
     color: white;
@@ -27,4 +28,10 @@ footer div {
     height: 470px;
     /* background-color: aqua; */
     padding: 50px;
+}
+
+footer ul li:hover:not(:nth-child(1)) {
+    padding-left: 20px;
+    color: #09CC7F;
+    transition: padding-left 0.3s ease-in; 
 }
