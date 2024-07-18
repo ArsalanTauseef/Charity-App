@@ -1,0 +1,30 @@
+#logo1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #ffff;
+}
+
+footer {
+    width: 100%;
+    background-color: #030820;
+    display: flex;
+    flex-direction: row;
+    /* gap: 30px; */
+}
+footer ul li:nth-child(1) {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+footer ul li {
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+footer div {
+    color: white;
+    width: calc(100%/4);
+    height: 470px;
+    /* background-color: aqua; */
+    padding: 50px;
+}

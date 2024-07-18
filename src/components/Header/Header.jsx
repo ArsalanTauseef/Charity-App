@@ -70,10 +70,10 @@ export const Header = () => {
               <ul>
                 <li><NavLink className={"awa"} to='/' style={{textDecoration:'none'}}>Home</NavLink></li>
                 <li><NavLink className={"awa"} to='about' style={{textDecoration:'none'}}>About</NavLink></li>
-                <li>Latest Causes</li>
-                <li>Social Events</li>
-                <li>Blog</li>
-                <li>Contact</li>
+                <li><NavLink className={"awa"} to='latestcauses' style={{textDecoration:'none'}}>Latest Causes</NavLink></li>
+                <li><NavLink className={"awa"} to='socialevents' style={{textDecoration:'none'}}>Social Event</NavLink></li>
+                <li><NavLink className={"awa"} to='blog' style={{textDecoration:'none'}}>Blog</NavLink></li>
+                <li><NavLink className={"awa"} to='contacts' style={{textDecoration:'none'}}>Contacts</NavLink></li>
               </ul>
             </div>
             <div id="btn">

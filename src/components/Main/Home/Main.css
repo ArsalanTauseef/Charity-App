@@ -53,3 +53,63 @@ ul li {
     align-items: center;
     gap: 20px;
 }
+
+.mainElement2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#e8ffff, rgb(254, 253, 253));
+
+}
+
+#mainElement2Div {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+    align-items: center;
+}
+
+#mainElement2Div * {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mainElement2Div:nth-child(1) {
+    font-size: 35px;
+}
+
+#mainElement2Div h1 {
+    font-size: 45px;
+    width: 60%;
+    color: #072366;
+}
+
+#mainElement3Div {
+    display: flex;
+    flex-direction: row;
+}
+
+#mainElement3Div div {
+    width: calc(100%/3);
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 69px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mainElement3Div div:nth-child(2) {
+    background-color: #09CC7F;
+    color: white;
+}
+
+#mainElement3Div div span {
+    font-size: 66px;
+}
