@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .contactsPage {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background: linear-gradient(to right,#d4ffee, rgb(255, 255, 255));
+    
 }
 
 
@@ -11,4 +14,127 @@
     color: rgb(11, 7, 45);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100px;
+}
+
+.contactsMain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.contactsDetails2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-weight: 300;
+}
+
+.contactsDetails2 span h3{
+    font-weight: 500;
+}
+
+#dFlex {
+    display: flex;
+    /* align-items: start; */
+    gap: 15px;
+}
+
+#a {
+    font-size: 30px;
+    color: rgb(117, 116, 116);
+
+}
+
+.contactsDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 50%;
+    /* background-color: aqua; */
+    box-shadow: 1px 1px 10px 1px grey;
+    border: 1px solid black;
+    padding: 20px;
+    gap: 20px;
+    height: 100%;
+}
+
+.contactsDetails:hover {
+
+    box-shadow: 1px 1px 10px 1px #1EE093;
+}
+
+.contactsDetails:hover > #a1 h3 {
+    color: #05bc73;
+}
+
+.contactsDetails  input,
+.contactsDetails  textarea {
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+#a1 {
+    display: flex;
+    align-items: center;
+    /* background-color: aliceblue; */
+    grid-area: 1/2 span ;
+}
+
+#a2 {
+    /* display: flex; */
+    width: 100%;
+    background-color: rgb(62, 119, 168);
+    grid-area: 2/2 span;
+}
+
+#a2 textarea {
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(62, 119, 168); */
+
+}
+
+#a5 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: rgb(62, 119, 168); */
+    grid-area: 4/2 span;
+}
+
+#a5 input{
+    width: 100%;
+    height: 50%;
+}
+
+#a3, #a4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#a3 input, #a4 input {
+    width: 100%;
+    height: 50%;
+}
+
+#a6 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+}
+
+#a6 button{
+    width: 100px;
+    height: 50px;
 }
